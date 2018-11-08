@@ -1,0 +1,76 @@
+@keyframes bluetogreen {
+    from {background-color: #9f82ff;}
+    to {background-color: #9f8200;}
+}
+
+head {
+	background-color: #ADD8E6;
+}
+button {
+  font-weight: bold;
+  padding: 0 10px;
+  border: none;
+  height: 60px;
+  width: 450px;
+  border-style: outset;
+}
+
+#content, html, body {
+    height: 98%;
+	overflow: hidden;
+}
+
+p {
+	font-weight: bold;
+}
+
+#left {
+    float: right;
+    width: 60%;
+    background: #d5deed;
+    height: 400px;
+}
+#right {
+    float: right;
+    width: 40%;
+    background: #d5deed;
+    height: 75%;
+    overflow: auto;
+}
+
+button:hover{
+	background-color: green;
+}
+
+h1 {
+	background-color: #ADD8E6;
+	margin-top: 10px;
+	font-size: 50px;
+	font-family: Arial;
+	background-height: 100px;
+	text-align: center;
+	padding: 14px 16px;
+	outline: thin solid;
+	text-shadow: 2px 2px 5px black;
+	animation-name: bluetogreen;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+body {
+	background-color: #d5deed;
+	font-family: verdana;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+
+
+
+
+
+
+
+
+
